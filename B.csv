@@ -1,0 +1,66 @@
+source,target,value,group
+Phosphonoacetate,Lactobacillus,1,g1
+Phosphonoacetate,Brevundimonas,1,g1
+Phosphonoacetate,Pseudomonas,1,g1
+Phosphonoacetate,Aeromonas,1,g1
+Pyridoxamine,Lactobacillus,1,g1
+Pyridoxamine,Brevundimonas,1,g1
+Pyridoxamine,Aeromonas,1,g1
+Pyridoxine,Pseudomonas,1,g2
+Pyridoxine,Aeromonas,1,g2
+Niacinamide,Lachnospira,1,g2
+Niacinamide,Dorea,1,g2
+Niacinamide,Fusicatenibacter,1,g2
+Nicotinamide riboside,Lactobacillus,1,g1
+Nicotinamide riboside,Brevundimonas,1,g1
+Nicotinamide riboside,Pseudomonas,1,g1
+Indole,Brevundimonas,1,g1
+Ectoine,Enterococcus,1,g1
+Ectoine,Faecalibacterium,1,g2
+Ectoine,Lachnospira,1,g2
+Ectoine,Dorea,1,g2
+Salidroside,Aeromonas,1,g2
+Cinnamaldehyde,Brevundimonas,1,g1
+Melatonin,Enterococcus,1,g1
+Melatonin,Brevundimonas,1,g1
+Fumaric acid,Enterococcus,1,g1
+Fumaric acid,Brevundimonas,1,g1
+Fumaric acid,Faecalibacterium,1,g2
+Fumaric acid,Fusicatenibacter,1,g2
+Enterococcus,Phenylethylamine,1,g2
+Enterococcus,Indolepyruvate,1,g2
+Enterococcus,L-tryptophan,1,g2
+Lactobacillus,L-tryptophan,1,g2
+Brevundimonas,Putrescine,1,g2
+Brevundimonas,N-acetylputrescine,1,g2
+Brevundimonas,Spermidine,1,g2
+Brevundimonas,L-tryptophan,1,g2
+Pseudomonas,L-tryptophan,1,g2
+Aeromonas,N-acetylputrescine,1,g2
+Aeromonas,L-tryptophan,1,g2
+Prevotella_9,Indolepyruvate,1,g1
+Faecalibacterium,Putrescine,1,g1
+Faecalibacterium,Phenylethylamine,1,g1
+Faecalibacterium,Spermidine,1,g2
+Faecalibacterium,Indolepyruvate,1,g1
+Faecalibacterium,L-tryptophan,1,g1
+Ruminococcaceae_UCG-002,Putrescine,1,g1
+Ruminococcaceae_UCG-002,N-acetylputrescine,1,g1
+Ruminococcaceae_UCG-002,Phenylethylamine,1,g1
+Ruminococcaceae_UCG-002,Spermidine,1,g2
+Ruminococcaceae_UCG-002,Indolepyruvate,1,g1
+Ruminococcaceae_UCG-002,L-tryptophan,1,g1
+Lachnospira,Putrescine,1,g1
+Lachnospira,Phenylethylamine,1,g1
+Lachnospira,Indolepyruvate,1,g1
+Lachnospira,L-tryptophan,1,g1
+Roseburia,Putrescine,1,g1
+Roseburia,Phenylethylamine,1,g1
+Roseburia,L-tryptophan,1,g1
+Dorea,Phenylethylamine,1,g1
+Dorea,Spermidine,1,g2
+Dorea,Indolepyruvate,1,g1
+Dorea,L-tryptophan,1,g1
+Fusicatenibacter,Indolepyruvate,1,g1
+Fusicatenibacter,L-tryptophan,1,g1
+Fusicatenibacter,Phenylethylamine,1,g1
