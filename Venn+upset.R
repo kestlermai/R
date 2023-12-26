@@ -3,8 +3,8 @@ library(RColorBrewer)
 library(dplyr)
 setwd("C:/Users/11146/Desktop/NAFLD2.0/21 Wang J 2017")
 
-data.g <- read.table("otu_table.txt" ,row.names = 1,sep = "\t")
-group <- read.table("21group1.txt",header = T,sep = "\t")#样本的排序按照分组排列
+data.g <- read.table("otu_table_rare.txt" ,row.names = 1,sep = "\t")
+group <- read.table("21group-rare.txt",header = T,sep = "\t")#样本的排序按照分组排列
 
 g<-unique(group$group)
 Gnum<-length(g)
@@ -40,18 +40,21 @@ p <- venn.diagram(df,filename = NULL,#height = 5400,width = 5400,
              lwd = 1,lty = 1,
              euler.d = F, scaled = F,#venn.diagram默认没有交集圆圈不重合
              fill = c("#3C5488B2","#DC0000B2"),#两变量
+             #fill = c("#DC0000B2","#3C5488B2"),#两变量
              #fill = brewer.pal(length(dg),"Set2"),#三变量以上
              cex = 1,#数字大小
              fontface = 1.5,
+             #cat.col = brewer.pal(length(dg),"Set2"),
              cat.col = c("#3C5488B2","#DC0000B2"),#字体颜色
+             #cat.col = c("#DC0000B2","#3C5488B2"),
              #克莱因蓝#002EA6;松花黄#FFE76F;马尔斯绿#01847F;玫瑰粉#F9D2E4；
              #爱马仕橙#FF770F;深蓝色#000026;蒂芙尼蓝#80D1C8;奶酪色#F8F5D6;
              #淡黄色#FAEAD3;范戴克棕#492D22;浅卡其色#D8C7B5
              cat.dist = c(0.06,0.05),
-             cat.pos = c(-145,145),
+             cat.pos = c(45,-45),
              cat.cex = 1.2,alpha = 0.8,margin = 0.05,
              cat.fontface = 1, print.mode = c("raw","percent"))
-pdf("venn.pdf", width=6.3,height=6)
+pdf("venn.pdf", width=6.5,height=6)
 grid.draw(p)
 dev.off()
 
